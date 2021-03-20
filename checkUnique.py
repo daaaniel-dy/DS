@@ -55,6 +55,7 @@ random.seed(0)  # 난수 제어를 위한 난수 시드
 n = int(input("input n(2<=n<=100000) : "))
 
 A = random.sample(range(-n, n + 1), n)  # 리스트에 난수 저장
+print(A)
 
 # unique_n2 수행시간 측정
 start = time.process_time()
